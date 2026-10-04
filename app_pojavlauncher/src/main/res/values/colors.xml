@@ -2,15 +2,18 @@
 <resources>
     <color name="control_button_color">#4CC4C4C4</color>
     <color name="control_button_pressed_color">#4D000000</color>
-
-    <color name="minebutton_color">#91dffb</color>
-    <color name="background_app">#181818</color>
-    <color name="divider">@color/background_overlay</color>
-    <color name="background_overlay">#464646</color>
-    <color name="background_status_bar">#242424</color>
-    <color name="background_bottom_bar">#232323</color>
+    <color name="minebutton_color">#00D084</color>
+    <color name="background_app">#0B1018</color>
+    <color name="divider">#263140</color>
+    <color name="background_overlay">#263140</color>
+    <color name="background_status_bar">#0B1018</color>
+    <color name="background_bottom_bar">#111925</color>
     <color name="icon_outline_color">#FFFFFF</color>
-
-    <color name="primary_text">#FFFFFF</color>
-    <color name="secondary_text">#B2B2B2</color>
+    <color name="primary_text">#F4F7FA</color>
+    <color name="secondary_text">#9BA7B7</color>
+    <color name="swiftmod_green">#00D084</color>
+    <color name="swiftmod_green_dark">#063B2D</color>
+    <color name="swiftmod_panel">#121A26</color>
+    <color name="swiftmod_panel_2">#182231</color>
+    <color name="swiftmod_stroke">#293648</color>
 </resources>
