@@ -333,5 +333,6 @@ public class LauncherActivity extends BaseActivity {
         mFragmentView = findViewById(R.id.container_fragment);
         mSettingsButton = findViewById(R.id.setting_button);
         mProgressLayout = findViewById(R.id.progress_layout);
+        findViewById(R.id.swiftmod_ai_button).setOnClickListener(v -> startActivity(new Intent(this, SwiftModVoiceAssistantActivity.class)));
     }
 }
