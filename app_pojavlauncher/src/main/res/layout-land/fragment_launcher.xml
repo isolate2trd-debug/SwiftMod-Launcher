@@ -183,7 +183,7 @@
                 android:background="@drawable/swiftmod_banner">
 
                 <ImageView
-                    android:layout_width="72%"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="end"
                     android:alpha="0.92"
@@ -192,7 +192,7 @@
                     android:src="@drawable/swiftmod_hero_scene"/>
 
                 <View
-                    android:layout_width="55%"
+                    android:layout_width="@dimen/_175sdp"
                     android:layout_height="match_parent"
                     android:layout_gravity="start"
                     android:background="@drawable/swiftmod_hero_fade"/>
