@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#101412">
+
+    <TextView
+        android:id="@+id/ai_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SwiftMod AI"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#8BE28B"/>
+
+    <TextView
+        android:id="@+id/ai_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Tap the mic to start a live voice chat."
+        android:textSize="15sp"
+        android:textColor="#D0D6D2"/>
+
+    <EditText
+        android:id="@+id/ai_api_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:hint="AI API key"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#88918B"/>
+
+    <Button
+        android:id="@+id/ai_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save key"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:id="@+id/ai_transcript"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your conversation will appear here."
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/ai_mic"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="🎙  TALK TO SWIFTMOD AI"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/ai_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close"/>
+</LinearLayout>
