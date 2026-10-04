@@ -51,4 +51,15 @@
 
 
 
+    <Button
+        android:id="@+id/swiftmod_ai_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="12dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
