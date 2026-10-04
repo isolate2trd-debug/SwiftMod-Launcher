@@ -381,11 +381,15 @@
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4sdp" android:text="SwiftNesxT" android:textColor="@color/secondary_text" android:textSize="@dimen/_8ssp"/>
         </LinearLayout>
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
         <com.kdt.mcgui.MineButton
             android:id="@+id/play_button"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_42sdp"
-            android:layout_marginTop="auto"
             android:background="@drawable/swiftmod_play"
             android:text="@string/main_play"
             android:textColor="#FFFFFFFF"
