@@ -206,7 +206,6 @@
                     android:layout_height="@dimen/_34sdp"
                     android:background="@android:color/transparent"
                     android:drawableEnd="@drawable/spinner_arrow"
-                    android:drawableEndPadding="@dimen/_1sdp"
                     app:drawableEndSize="@dimen/_8sdp"
                     app:drawableStartIntegerScaling="true"
                     app:drawableStartSize="@dimen/_20sdp"/>
