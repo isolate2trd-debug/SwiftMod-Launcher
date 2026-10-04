@@ -198,7 +198,7 @@
                     android:background="@drawable/swiftmod_hero_fade"/>
 
                 <LinearLayout
-                    android:layout_width="55%"
+                    android:layout_width="@dimen/_175sdp"
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
                     android:orientation="vertical"
