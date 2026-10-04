@@ -333,6 +333,6 @@ public class LauncherActivity extends BaseActivity {
         mFragmentView = findViewById(R.id.container_fragment);
         mSettingsButton = findViewById(R.id.setting_button);
         mProgressLayout = findViewById(R.id.progress_layout);
-        findViewById(R.id.swiftmod_ai_button).setOnClickListener(v -> startActivity(new Intent(this, SwiftModVoiceAssistantActivity.class)));
+        // The compact landscape UI does not include the optional AI button.\n        // Do not dereference it here; the assistant can be wired into the gesture UI separately.\n        View aiButton = findViewById(R.id.swiftmod_ai_button);\n        if (aiButton != null) {\n            aiButton.setOnClickListener(v -> startActivity(new Intent(this, SwiftModVoiceAssistantActivity.class)));\n        }
     }
 }
